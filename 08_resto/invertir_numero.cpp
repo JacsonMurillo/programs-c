@@ -5,7 +5,7 @@ int main () {
 
 
     int entrada ;
-
+    int revertir
 /*preguntar en pantalla.*/
     printf("Escribe un numero entre 0 y 999: ");
 
@@ -24,6 +24,8 @@ int main () {
 /*imprimir resultado.*/
 
     printf("%i", entrada % BASE);
+/*guardar la variable*/
+    scanf(" %i", )
 
     printf("\n");
 
