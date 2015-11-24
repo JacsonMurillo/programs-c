@@ -6,7 +6,8 @@ int main (){
     char nombre [5];
 
     printf("Dime tu nombre:");
-    scanf( " %s",&nombre);
+    /* no hace falta el & en las variables tipo char,(en la int SI)*/
+    scanf( " %s",nombre);
     do {
         printf( "%s\n", nombre);
 	contador +=1 ;
