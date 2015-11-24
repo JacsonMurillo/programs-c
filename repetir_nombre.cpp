@@ -8,7 +8,7 @@ int main (){
     printf("Dime tu nombre:");
     scanf( " %s",&nombre);
     do {
-        printf( "%s", nombre);
+        printf( "%s\n", nombre);
 	contador +=1 ;
     } while(contador != 10);
 
