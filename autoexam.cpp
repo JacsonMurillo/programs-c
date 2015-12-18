@@ -2,21 +2,19 @@
 #include <stdlib.h>
 
 int main() {
-    int contador = 0
-    char nombre [20];
-/*imprimir en pantalla*/
-    printf("dime tu nombre:");
-    /* guardar la variable*/
-    scanf(" %s",nombre);
+    int kelvin ;
+    int fahre ;
+    int celsius ;
+/*Pregunta la temperatura*/
+    printf("Dime la temperatura:\n");
+/*leer el numero introducido */
+    scanf(" %e", &celsius);
+/*aplicar la formula*/
+    fahre = celsius * (5/9) + 32;
+ 
+    printf("%e", fahre);
 
-    printf("%s",nombre );
 
-    printf("¿cuantas veces lo repite")
-
-    do {
-    
-    }
-
-    printf("\n");
+   
     return EXIT_SUCCESS;
 }
