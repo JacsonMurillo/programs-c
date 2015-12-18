@@ -3,7 +3,7 @@
 
 int main(){
 
-    int lado;
+    int lado,fola
 
     printf("Dime un numero:");
     scanf(" %i", &lado);

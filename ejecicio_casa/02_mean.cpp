@@ -3,8 +3,8 @@
 
 int main(){
 
-    int numero,suma,cont;
-
+    int numero,cont;
+    double suma;
     cont=0;
 
     while(cont<10){
@@ -16,7 +16,7 @@ int main(){
 
     }
 
-    printf("La media de los numeros es %.2f\n",suma/10.0);
+    printf("La media de los numeros es %f\n",suma/10);
 
     return EXIT_SUCCESS;
 }

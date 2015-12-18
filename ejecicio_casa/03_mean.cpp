@@ -3,10 +3,10 @@
 
 int main (){
 
-    int acumulador;
+    double acumulador=0;
     int numero ;
     int divisor;
-    acumulador = 0;
+    
 
     do {
 	printf("Dime tus numero:\n");
@@ -16,9 +16,9 @@ int main (){
 
     }while ( numero >0 );
 
-    acumulador /= divisor;
+    acumulador /= (divisor-1);
 
-printf("la media es:%i",acumulador);
+printf("la media es:%f",acumulador);
 
     return EXIT_SUCCESS;
     }
