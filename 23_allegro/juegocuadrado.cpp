@@ -30,13 +30,8 @@ void recalcular_posiciones(struct Nave nave[N]){
         if ( nave[i].y + nave[i].vy + nave[i].height > SH ||
                 nave[i].y + nave[i].vy < 0){
             nave[i].vy *= -1;
-<<<<<<< HEAD
-            nave[i].vy *= 0.7;
-            nave[i].vx *= 0.7;
-=======
             nave[i].vy *= 0.5;
             nave[i].vx *= 0.5;
->>>>>>> 53e2095f2bc520bfcfbf8d059c177fe62a6a817c
         }
         nave[i].x += nave[i].vx;
         nave[i].y += nave[i].vy;

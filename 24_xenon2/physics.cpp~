@@ -1,0 +1,19 @@
+#include "physics.h"
+int y=29;
+
+void init(ALLEGRO_BITMAP *sprites, struct Movil *nave) {
+    nave->a.x = 0.;
+    nave->a.y = 0.;
+    nave->v.x = 0.;
+    nave->v.y = 0.;
+    nave->r.x = 0.;
+    nave->r.y = 0.;
+   for(int i=33;i<99;i++)
+   {nave->img = al_create_sub_bitmap( sprites, 0, 98, i, y );
+
+     }
+}
+
+void update_physics(bool keys[4], struct Movil *nave){
+    return;
+}
